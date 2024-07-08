@@ -3,27 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Accueil</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenue sur mon portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="biography.html">Biographie</a></li>
-                <li><a href="projects.html">Projets</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+    <header class="header">
+        <a href="#" class="logo"><span class="log">J</span>eanos.</a>
+        <nav class="nav_bar">
+            <a href="index.html"><i class="fas fa-home"></i>Accueil</a>
+            <a href="biography.html"><i class="fas fa-user"></i>Biographie</a>
+            <a href="projects.html" <i class="fas fa-code"></i>>Projets</a>
+            <a href="hobbies.html"><i class="fas fa-heart"></i>Hobbies</a>
+            <a href="contact.html"><i class="fas fa-envelope"></i>Contact</a>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Introduction</h2>
-            <img src="images/photo_de_moi.jpeg" alt="Photo de l'étudiant" title="Photo de l'etudiant" width="50%">
-            <p>Bonjour! Je suis Jean Kéloua Ouamouno, étudiant en Developpement <br>Bienvenue sur mon Portfolio! N'hesitez pas à me contactez en cas de besoin. Merci!</p>
+        
+        <section class="Accueil">
+            <div class="ent">
+                <h1><i class="fas fa-paint-brush"></i>Introduction</h1>
+            </div>
+            <div class="section">
+                <div class="presentation"><h2><span class="hi">S</span>alut! <br> Je suis Jean Kéloua Ouamouno!</h2>
+                    <h3>Developpeur Web</h3>
+                    <p>Bienvenue sur mon Portfolio! Je suis passionné par la création d'expériences web innovantes et intuitives qui captivent les utilisateurs. Avec une solide expérience en développement front-end et back-end, je m'efforce de transformer les idées en solutions numériques performantes. Mon approche est centrée sur la qualité, la performance et la satisfaction du client. N'hésitez pas à explorer mon travail et à me contacter pour discuter de vos projets. Ensemble, nous pouvons donner vie à vos idées!</p>
+                    <div class="bouton">
+                        <a href="#">M'engager</a>
+                        <a href="#">Parlons-en</a>
+                    </div>
+                </div>
+                <img src="images/photo_de_moi.jpeg" alt="Photo de l'étudiant" title="Photo de l'etudiant" width="40%" height="460px" class="moi">
+            </div>
+            
         </section>
     </main>
     <footer>
